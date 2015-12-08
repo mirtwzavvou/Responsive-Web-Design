@@ -1,0 +1,507 @@
+@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url('fonts/CaviarDreams-webfont.eot');
+    src: url('fonts/CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/CaviarDreams-webfont.woff') format('woff'),
+         url('fonts/CaviarDreams-webfont.ttf') format('truetype'),
+         url('fonts/CaviarDreams-webfont.svg#caviar_dreamsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Custom CSS 
+/* ---------------------------------*/
+body { 
+	font-family: "caviar_dreamsregular", Monospace, Times, serif;
+	font-size: 1.1vw;
+	line-height: 1.5vw;
+}
+
+p {
+	width: 70vw;
+	position: absolute;
+	text-align: justify;
+	top: 35%; left: 0; right:0;
+	margin: auto;
+	color: white;
+}
+
+.main {
+	background: url(svg/background.svg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.title {
+	font-size: 2.2vw;
+	font-weight: bold;
+	position: absolute;
+	text-align: center;
+	top: 20%; left: 0; right:0;
+	margin: auto;
+	color: white;
+	z-index: 1;
+}
+
+/* ----- Home ----- */
+
+/* Heading Protect the Earth */
+#index {
+	font-size: 1.7vw;
+	font-weight: bold;
+	position: absolute;
+	text-align: center;
+	bottom: 9vw; left: 0; right:0;
+	margin: auto;
+	color: white;
+}
+
+/* Header as table */
+header {
+	height: 20%;
+}
+
+.content {
+	height: 80%;
+}
+
+/* Logo icon*/
+
+#logo {
+	position: absolute;
+	top: 1vw; left: 2.2vw;	
+    width: 7vw;
+}
+
+/* Earth icon*/
+#earth {
+	width: 25vw;
+    position: absolute;
+    top: 10vw; left: 0; right:0;
+    margin: auto;
+}
+
+/* Stars icon */
+#stars {
+	width: 100%;
+}
+
+/* Starlight */
+#starlight {
+	width: 97%;
+	height: 500px;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+/* ------ About ------ */
+/* Starlight Left About */
+#left_stars {
+	width: 10vw;
+	height: 5vw;
+	position: absolute;
+	top: 15%; left: 0; right: 30%;
+	margin: auto;
+}
+
+/* Starlight Left About */
+#right_stars {
+	width: 10vw;
+	height: 5vw;
+	position: absolute;
+	top: 15%; left: 30%; right: 0;
+	margin: auto;
+}
+
+/*-------- Contact -------- */
+.contact {
+	font-size: 1.5vw;
+	line-height: 2vw;
+	text-align: center;
+}
+
+/* ------- Main Menu --------*/
+#menu ul {
+	font-family: "caviar_dreamsregular", Monospace, Times, serif;
+	font-size: 1.2vw;
+    list-style-type: none;
+    margin-top: 3vw;
+    margin-right: 5vw;
+    padding: 0;
+    overflow: hidden;
+	float: right;
+}
+
+#menu li {
+    padding-right: 5vw;
+	display: inline-block;
+    text-align: center;
+}
+
+#menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    width: 5vw;
+    text-decoration: none;
+}
+
+#menu li a:hover:after {
+    width: 100%;
+	background: white;
+}
+
+#menu a:hover {
+	text-decoration: none;
+    color: white;
+}
+
+#menu a:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 1px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+
+#menu .active {
+	border-style: solid;
+    border-width: 0 0 1px 0;
+}
+
+
+/* Scroll Icon */
+#button {
+	position: absolute;
+	bottom: 1vw; left: 0; right:0;
+	margin: auto;
+	width: 2vw;
+}
+
+/* Transparency */
+.transparent {
+	opacity: 0.1;
+}
+
+/* ---- 2 Columns paragraph ---- */
+.column-2 {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 50px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 50px; /* Firefox */
+    column-gap: 50px;
+}
+
+/* ------------------ Animals -------------------*/
+.animals{
+	background: url(svg/bg_animals.svg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.title_an {
+	font-size: 3vw;
+	position: absolute;
+	text-align: center;
+	top: 4vw; left: 0; right:50vw;
+	margin: auto;
+	color: white;
+	z-index: 1;
+}
+
+/* Animals Left Paragraph */
+#p_animals1 {
+	width: 30vw;
+	position: absolute;
+	text-align: center;
+	top: 8vw; right: 50vw;
+	margin: auto;
+	color: white;
+}
+
+#quote_left1 {
+	width: 10vw;
+	font-size: 10vw;
+	color: white;
+	position: absolute;
+	top: 10vw; left: 0; right:75vw;
+	margin: auto;
+}
+
+#quote_right1 {
+	width: 10vw;
+	font-size: 10vw;
+	color: white;
+	position: absolute;
+	top: 19vw; left: 0; right:10vw;
+	margin: auto;
+}
+
+/* Animals Right Paragraph */
+#p_animals2 {
+	width: 27vw;
+	position: absolute;
+	text-align: center;
+	top: 15vw; left: 43vw;
+	color: white;
+}
+
+#quote_left2 {
+	width: 10vw;
+	font-size: 10vw;
+	color: white;
+	position: absolute;
+	top: 17vw; left: 22vw; 
+	margin: auto;
+}
+
+#quote_right2 {
+	width: 10vw;
+	font-size: 10vw;
+	color: white;
+	position: absolute;
+	top: 23vw; left:80vw;
+	margin: auto;
+}
+
+/* Bears */
+#bears {
+	width: 33vw;
+	position: absolute;
+	bottom: 1vw; left: 10vw;
+}
+
+/* Toucan */
+#toucan {
+	width: 20vw;
+	position: absolute;
+	top: 0; right: 0;
+}
+
+
+.an_scroll {
+	width: 35vw;
+	height: 18vw;
+	text-align: justify;
+	color: white;
+	padding: 1vw;
+	position: absolute;
+	bottom: 5vw; right: 10vw;
+	margin: auto;
+	overflow: scroll;
+}
+
+/* ----- Forests ----- */
+
+.forest {
+	background: url(svg/bg_forest.svg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.title_for {
+	font-size: 3vw;
+	position: absolute;
+	text-align: center;
+	top: 4vw; left: 0; right:50vw;
+	margin: auto;
+	color: white;
+	z-index: 1;
+}
+
+/* Forest Left Paragraph */
+#p_forest {
+	width: 26vw;
+	position: absolute;
+	text-align: center;
+	top: 10vw; left: 0; right:50vw;
+	margin: auto;
+	color: white;
+}
+
+#quote_left3 {
+	width: 10vw;
+	font-size: 10vw;
+	color: white;
+	position: absolute;
+	top: 12vw; left: 0; right:70vw;
+	margin: auto;
+}
+
+#quote_right3 {
+	width: 10vw;
+	font-size: 10vw;
+	color: white;
+	position: absolute;
+	top: 20vw; left: 0; right:20vw;
+	margin: auto;
+}
+
+/* Trees */
+#trees {
+	width: 38vw;
+	position: absolute;
+	bottom: 0; left: 5vw;
+}
+
+/* Acorn */
+#acorn {
+	width: 10vw;
+	position: absolute;
+	top: 3vw; right: 5vw;
+}
+
+
+.for_scroll {
+	width: 25vw;
+	height: 30vw;
+	text-align: justify;
+	color: white;
+	padding: 1vw;
+	position: absolute;
+	bottom: 8vw; right: 24vw;
+	margin: auto;
+	overflow: scroll;
+}
+
+/* ---- Scroll Bar ---- */
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 0.8vw;
+    height: 0;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(255,255,255,0.3); 
+    -webkit-border-radius: 10vw;
+    border-radius: 10vw;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10vw;
+    border-radius: 10vw;
+    background: rgba(49,124,117,0.8); 
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);*/
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(49,124,117,0.8); 
+}
+
+/* Hide Scrollbar Corner */
+::-webkit-scrollbar-corner{
+	opacity: 0;
+}
+
+/* ----- Oceans ----- */
+
+
+.title_oc {
+	font-size: 3vw;
+	position: absolute;
+	text-align: center;
+	top: 5vw; left: 0; right:50vw;
+	margin: auto;
+	color: white;
+	z-index: 1;
+}
+
+/* Ocean Right Paragraph */
+#p_ocean {
+	width: 20vw;
+	position: absolute;
+	text-align: center;
+	top: 13vw; left: 70vw; right: 0;
+	color: white;
+}
+
+#quote_left4 {
+	width: 10vw;
+	font-size: 10vw;
+	color: white;
+	position: absolute;
+	top: 15vw; left: 55vw; right:0;
+	margin: auto;
+}
+
+#quote_right4 {
+	width: 10vw;
+	font-size: 10vw;
+	color: white;
+	position: absolute;
+	top: 26vw; left: 94vw; right:0;
+	margin: auto;
+}
+
+/* Trees */
+#sea {
+	width: 100%;
+	position: absolute;
+	bottom: 0; left: 0; right: 0;
+	margin: auto;
+}
+
+/* Acorn */
+#fish {
+	width: 13vw;
+	position: absolute;
+	bottom: 12vw; right: 8vw;
+}
+
+
+.oc_scroll {
+	width: 60vw;
+	height: 15vw;
+	text-align: justify;
+	color: white;
+	padding: 1vw;
+	position: absolute;
+	top: 12vw; left: 10vw;
+	margin: auto;
+	overflow: scroll;
+}
+
+/* Defining each section background and styles
+* --------------------------------------- */
+#section0{
+	background: url(svg/background.svg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#section1{
+	background: url(svg/bg_animals.svg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#section2{
+	background: url(svg/bg_forest.svg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#section3{
+	background: url(svg/bg_ocean.svg) no-repeat center top;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+

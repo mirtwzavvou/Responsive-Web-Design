@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Protect the Earth</title>
+		<meta name="author" content="Myrto Zavvou" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">		
+
+		<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+		<link href="style.css" rel="stylesheet">	
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="js/starlight.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#fullpage').fullpage({
+					verticalCentered: false
+
+				});
+			});
+		</script>
+
+
+    </head>
+	<body>
+   		<div id="fullpage">
+			<div class="section " id="section0">
+				<header>
+					<img id="logo" src="svg/logo.svg" alt="Anima">
+					<div id="menu">
+						<ul>
+							<li><a href="home.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a class="active" href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</header>
+				<div class="content">
+
+					<div id="left_stars" class="starlight">
+					</div>
+					<div id="right_stars" class="starlight">
+					</div>
+
+					<h1 class="title">Contact Us</h1>
+					<p class="contact"> <strong>Anima International</strong><br>
+										anima@info.com<br>
+										2768 Walnut Street<br>
+										Tacoma, WA 98444<br>
+										<br>
+										Phone: +1-202-555-0180<br>
+										Fax: +1-202-555-0180</p>
+					<img class="transparent" id="stars" src="svg/stars.svg">
+
+					<img class="transparent" id="earth" src="svg/earth.svg" alt="Earth">
+				</div>
+			</div>
+		</div>
+
+    </body>
+</html>
